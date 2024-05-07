@@ -75,6 +75,7 @@ button:hover{
 }
 .sctn2{
     display: flex;
+    column-gap: 10px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around
@@ -234,6 +235,7 @@ button:hover{
 }
 .contact-parent{
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-between;
 }
 /* .form-contact{
