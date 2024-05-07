@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    background: url("bg3.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items:end ;
+}
+header{
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: crimson;
+}
+
+.link2 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 22px;    
+    align-items: center;
+    transition: all 0.3s ease-in;
+}
+header a:hover{
+    color: teal;
+}
+
+.card{
+    width: 200px;
+    background-color: rgba(220, 20, 60, 0.6);
+    border-radius:7px;
+    padding: 25px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    color: white;
+    width: 250px;
+    font-size: 22px;
+    
+}
+.card h1{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+button{
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-left: 15px;
+    transition: all 0.3s ease-in;
+    
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.cards2 img{
+    width: 100%;
+    border-radius: 7px;
+}
+.h1 h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sctn2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+.h12 h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cards2{
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 300px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.cards2 h1{
+    text-align: center;
+}
+.sctn3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.team-card{
+    width: 300px;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 7px;
+    padding: 10px; 
+    transition: all 0.3s ease-in;
+}
+.team-card:hover{
+    background-color: crimson;
+}
+.teamcards img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid crimson;
+    margin-top: 10px;
+}
+.teamcards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    height: 350px;
+}
+.sctn4{
+    background-color: #1d1d11;
+    color: white;
+    height: 80VH;
+    /* margin-top: 90px; */
+}
+.team h1{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info .title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.contact{
+    width: 400px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-div{
+    margin-left: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+.contact-div .icon{
+    font-size: 20px;
+    color: crimson;
+    padding-left: 10px;
+}
+.contact-text{
+    padding-left: 20px;
+}
+.form-contact input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+    margin: 7px;
+}
+.form-contact .subject{
+    width: 450px;
+}
+.form-contact .add{
+    margin-left: 6px;
+    width: 450px;
+    height: 20vh;
+    padding:10px ;
+}
+.formbutton button{
+    background-color: crimson;
+    color:white;
+    border: 1px solid crimson;
+    width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.formbutton button:hover{
+    background: transparent;
+    color: crimson;
+}
+.form-icon{
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    margin-left: ;
+}
+.form-icon .icon1{
+    font-size: 30px;
+    margin-left: 7px;
+    background-color: crimson;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid crimson;
+}
+.form-icon .icon2{
+    font-size: 30px;
+    margin-left: 7px;
+    background-color: crimson;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid crimson;
+}
+.form-icon .icon3{
+    font-size: 30px;
+    margin-left: 7px;
+    background-color: crimson;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid crimson;
+}
+ .iconh:hover{
+    color: crimson;
+    background: transparent;
+    transition: all 0.3s ease-in;
+}
+.contact-parent{
+    display: flex;
+    justify-content:space-between;
+}
+/* .form-contact{
+    gap-l: 50px;
+} */
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+footer .name{
+    color: crimson;
+}
+
