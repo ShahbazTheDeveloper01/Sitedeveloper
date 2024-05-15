@@ -7,6 +7,7 @@
     background-size: cover;
     height: 100vh;
     display: flex;
+    padding: 20px;
     justify-content: end;
     align-items:end ;
 }
@@ -36,8 +37,6 @@ header a:hover{
     background-color: rgba(220, 20, 60, 0.6);
     border-radius:7px;
     padding: 25px;
-    margin-right: 150px;
-    margin-bottom: 40px;
     color: white;
     width: 250px;
     font-size: 22px;
@@ -75,6 +74,7 @@ button:hover{
 }
 .sctn2{
     display: flex;
+    gap: 20px;
     column-gap: 10px;
     flex-wrap: wrap;
     align-items: center;
@@ -98,9 +98,11 @@ button:hover{
 }
 .sctn3{
     display: flex;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .team-card{
@@ -123,20 +125,23 @@ button:hover{
 }
 .teamcards{
     display: flex;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    height: 350px;
+    /* height: 350px; */
 }
 .sctn4{
     background-color: #1d1d11;
     color: white;
-    height: 80VH;
+    min-height: 80VH;
+    padding-top: 20px;
+    padding-bottom: 20px;
     /* margin-top: 90px; */
 }
 .team h1{
     text-align: center;
-    margin-top: 90px;
+    /* margin-top: 0px; */
     margin-bottom: 20px;
     font-size: 30px;
 }
@@ -199,7 +204,7 @@ button:hover{
     font-size: 25px;
     width: 200px;
     text-align: center;
-    margin-left: ;
+    /* margin-left: ; */
 }
 .form-icon .icon1{
     font-size: 30px;
